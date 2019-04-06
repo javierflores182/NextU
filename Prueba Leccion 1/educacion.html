@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de vida digital</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <svg width="100" height="100" viewbox="0 0 100 100">
+          <image width="100" height="100" cx="0" xlink:href="Images/Logo.svg"/>
+        </svg> Hoja de vida digital
+      </h1>
+
+      <h2>Datos Personales</h2>
+      <ul>
+        <li><h3> <b>Nombre:</b> <em>Javier Enrique Flores Ramos</em></h3></li>
+        <li><h3> <b>Fecha Nacimiento:</b> <em>5 de Abril de 1995.</em></h3></li>
+        <li><h3> <b>Lugar nacimiento:</b>  <em>San Pedro Sula, Cortés, Honduras.</em></h3></li>
+      </ul>
+
+    </header>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      |
+      <a href="educacion.html">Educación</a>
+      |
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+
+    <section>
+      <article class="educacion">
+        <h2>Educación</h2>
+        <table border="2">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culmino?</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>2001</td><td>Esc. Aurora</td><td>San Pedro Sula</td><td>SI</td>
+            </tr>
+            <tr>
+              <td>2007</td><td>Ins. Intec</td><td>San Pedro Sula</td><td>SI</td>
+            </tr>
+            <tr>
+              <td>2014</td><td>Uni. UTH</td><td>San Pedro Sula</td><td>SI</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="Registro">
+        <form class="RegistroForm" action="index.html" method="post">
+          <fieldset>
+            <legend><h2>Agregar Estudios</h2></legend>
+            <p>  <label for="Anio">Año</label>
+              <select class="Anio" name="Anio">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+              </select>
+            </p>
+
+            <p>  <label for="Institucion">Institución</label>
+              <input type="text" name="Institucion" placeholder="Ej: Escuela Privada Marbella" required>
+            </p>
+
+
+            <p>
+              <label for="Lugar">Lugar</label>
+              <input type="text" name="Lugar" placeholder="Ej: San Pedro Sula" required>
+            </p>
+
+            <p>
+              <input type="submit" value="Enviar">
+            </p>
+
+          </fieldset>
+        </form>
+      </article>
+    </section>
+
+<br>
+    <footer>
+      <h2>Información de contacto:</h2>
+      <p>Dirección: Col. Buena Fuente. | Telefono: (+504) 99-66-66-78. | Correo: MiCorreo@gmail.com | Facebook: JavierFlores182.</p>
+    </footer>
+  </body>
+</html>
